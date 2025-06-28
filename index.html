@@ -1,87 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zishan-Al Portfolio</title>
-  <!-- Locomotive Scroll CSS (optional) -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.css"
-  />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zishan | CEO & Education Innovator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="main-container" data-scroll-container>
-    <!-- NAVBAR -->
-    <header class="navbar container">
-      <div class="logo"><a href="#">Zishan-Al</a></div>
-      <nav>
-        <div class="hamburger">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="main-container" data-scroll-container>
 
-    <!-- HERO -->
-    <section class="hero container" data-scroll-section>
-      <div class="hero-content" data-scroll data-scroll-speed="0.5">
-        <h1 class="hero-title">Hey, I'm Zishan.</h1>
-        <p class="hero-subtitle">
-          Full-Stack Web Developer & Designer. Welcome to my portfolio.
-        </p>
-        <button class="cta-button">Get in Touch</button>
-      </div>
-      <div
-        class="hero-image-frame"
-        data-scroll
-        data-scroll-speed="-1"
-      >
-        <picture>
-          <source
-            media="(max-width: 480px)"
-            srcset="zishangoogledp-small.png"
-          />
-          <img
-            src="zishangoogledp.png"
-            alt="A professional headshot of Zishan"
-          />
-        </picture>
-      </div>
-    </section>
+        <section class="hero" data-scroll-section>
+            <div class="hero-content">
+                <h1 class="hero-title" data-scroll data-scroll-speed="2">Hi, I'm Zishan,</h1>
+                <p class="hero-subtitle" data-scroll data-scroll-speed="1">a CEO from Pune.<br>Empowering Education Through Innovation and Technology</p>
+                <a href="#contact" class="cta-button" data-scroll-to>Get in touch.</a>
+            </div>
+            <div class="hero-image-frame" data-scroll data-scroll-speed="-1">
+                <picture>
+                    <source media="(max-width:480px)" srcset="zishangoogledp-small.png">
+                    <img src="zishangoogledp.png" alt="A professional headshot of Zishan">
+                </picture>
+            </div>
+        </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="about container" data-scroll-section>
-      <h2>About Me</h2>
-      <p>...your about text here...</p>
-    </section>
+        <section class="about" id="about" data-scroll-section>
+            <div class="section-title" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content" data-scroll data-scroll-speed="1">
+                 <p>With over six years of diverse professional experience, my journey has been driven by a passion for leveraging technology to solve problems and improve efficiency – a passion that I am now keen to focus on the educational and ed-tech landscape. My background in operations management, client implementation, digital marketing, and technical support has equipped me with a versatile skill set that I believe can significantly contribute to the growth and innovation within educational institutions and technology-driven learning platforms.</p>
+                <p>Throughout my career, I've consistently sought opportunities to optimize processes and implement effective technical solutions. As a <strong><a href="#ascanius-exp" data-scroll-to>Director and CEO at Ascanius</a></strong>, I led strategic direction and client engagement, honing my skills in understanding client needs and delivering tailored solutions. My experience in client onboarding, particularly with platforms like <strong><a href="#ascanius-exp" data-scroll-to>GoHighLevel</a></strong>, has provided me with a strong foundation in ensuring smooth user adoption of new technologies.</p>
+                <p>My interest in education is further underscored by my <strong><a href="#void-exp" data-scroll-to>Google Workspace for Education certifications</a></strong>. Beyond professional roles, I have a strong commitment to fostering learning. For over six years, I volunteered as a certified mentor for international robotics competitions like <strong><a href="#mentor-exp" data-scroll-to>FIRST Tech Challenge</a></strong>, mentoring students on programming, design, and critical thinking. This has provided me with invaluable insights into the learning process and the importance of engaging students through hands-on activities.</p>
+            </div>
+        </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="features container" data-scroll-section>
-      <h2>Projects</h2>
-      <div class="skills-grid">
-        <!-- .skill-card items here -->
-      </div>
-    </section>
+        <section class="skills" id="skills" data-scroll-section>
+            <div class="section-title" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
+                <h2>Expertise</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-scroll data-scroll-delay="0.1" data-scroll-speed="1">
+                    <h3>Leadership & Strategy</h3>
+                    <ul>
+                        <li>Strategic Direction</li>
+                        <li><a href="#void-exp" data-scroll-to>Project Lifecycle Coordination</a></li>
+                        <li>Team Leadership</li>
+                        <li>Agile Methodologies</li>
+                        <li>Daily Operations Management</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-scroll data-scroll-delay="0.15" data-scroll-speed="1">
+                    <h3>Platforms & Software</h3>
+                    <ul>
+                        <li><a href="#ascanius-exp" data-scroll-to>GoHighLevel (GHL)</a></li>
+                        <li><a href="#void-exp" data-scroll-to>Google Workspace / G Suite</a></li>
+                        <li>CRM & PM (ClickUp, Zoho)</li>
+                        <li>Website CMS (Duda, Wix)</li>
+                        <li><a href="#wishup-exp" data-scroll-to>Automation (Zapier, Make)</a></li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-scroll data-scroll-delay="0.2" data-scroll-speed="1">
+                    <h3>Client & Operations</h3>
+                    <ul>
+                        <li>Client Implementation</li>
+                        <li>Workflow Automation</li>
+                        <li><a href="#void-exp" data-scroll-to>Process Optimization (SOPs)</a></li>
+                        <li>Technical Training Delivery</li>
+                        <li>Client Relationship Management</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-scroll data-scroll-delay="0.25" data-scroll-speed="1">
+                    <h3>Technical & Content</h3>
+                    <ul>
+                        <li><a href="#ascanius-exp" data-scroll-to>Automation & Databases</a></li>
+                        <li>Copywriting (SEO-focused)</li>
+                        <li>Video Scripting & Voiceovers</li>
+                        <li>Social Media Management</li>
+                        <li>Software QA Support</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="contact container" data-scroll-section>
-      <h2>Contact</h2>
-      <div class="contact-content">
-        <!-- your contact form or links -->
-      </div>
-    </section>
-  </div>
+        <section class="experience" id="experience" data-scroll-section>
+            <div class="section-title" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">
+                <h2>Career Highlights</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" id="ascanius-exp" data-scroll data-scroll-speed="1">
+                    <div class="timeline-date">June 2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Chief Executive Officer</h3>
+                        <h4>Ascanius, Pune</h4>
+                        <ul>
+                            <li>Spearheaded strategic vision, achieving a <strong>57% increase in lead generation</strong>.</li>
+                            <li>Implemented processes reducing average client onboarding time by <strong>30%</strong>.</li>
+                            <li>Directed development of 50+ custom workflows in GoHighLevel, saving clients an average of <strong>20 hours/week</strong>.</li>
+                            <li>Achieved a year-over-year revenue growth of <strong>25%</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item" id="wishup-exp" data-scroll data-scroll-speed="1">
+                     <div class="timeline-date">December 2021 - September 2022</div>
+                    <div class="timeline-content">
+                        <h3>Remote Operations Specialist / OBM</h3>
+                        <h4>WishUp, Remote</h4>
+                        <ul>
+                            <li>Provided comprehensive remote operational, OBM, and VA support to global clients.</li>
+                            <li>Managed client website updates on Duda and Wix platforms.</li>
+                             <li>Leveraged automation tools (Zapier, Make) and data platforms (Airtable) extensively.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item" id="void-exp" data-scroll data-scroll-speed="1">
+                    <div class="timeline-date">July 2021 - Dec 2021</div>
+                    <div class="timeline-content">
+                        <h3>Senior Process Associate (PMO)</h3>
+                        <h4>Void Solutions, Pune</h4>
+                        <ul>
+                            <li>Managed key projects, including <strong>G Suite for Education deployments</strong> for schools/NGOs.</li>
+                            <li>Owned, developed, and maintained all company SOPs across operations and sales.</li>
+                            <li>Managed development of digitized assessment tools used by <strong>50k+ users</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item" id="mentor-exp" data-scroll data-scroll-speed="1">
+                    <div class="timeline-date">2014 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Mentor & Volunteer</h3>
+                        <h4>FIRST Tech Challenge (FTC) & FIRST LEGO League (FLL)</h4>
+                        <ul>
+                            <li>Mentored students in programming, mechanical design, critical thinking, and teamwork.</li>
+                            <li>Coached multiple teams to success, including the <strong>2014 Inspire Award-winning team</strong> advancing to the World Championship.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- Locomotive Scroll JS -->
-  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
-  <script src="script.js"></script>
+        <section class="detailed-experience" data-scroll-section>
+            <div class="section-title" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
+                <h2>Work Experience & Projects</h2>
+            </div>
+            <div class="accordion">
+                
+                <div class="accordion-item">
+                    <button class="accordion-header">Chief Executive Officer | Ascanius</button>
+                    <div class="accordion-content">
+                        <p><strong>Pune | June 2022 - Present</strong></p>
+                        <ul>
+                            <li>Spearheaded the strategic vision and direction for Ascanius, achieving a 57% increase in lead generation through targeted marketing initiatives.</li>
+                            <li>Oversaw all aspects of business operations, implementing efficient processes that resulted in a 30% reduction in average client onboarding time.</li>
+                            <li>Cultivated and maintained strong client relationships, driving exceptional client engagement and achieving a consistent client satisfaction rating of 4.5/5 for GoHighLevel onboarding processes.</li>
+                            <li>Leveraged marketing automation platforms (Woosender, GoHighLevel) to significantly enhance client outreach and campaign management, leading to a 42% improvement in client conversion rates.</li>
+                            <li>Directed the development of over 50 custom workflows and funnels in GoHighLevel, optimizing client processes and achieving measurable improvements in their operational efficiency.</li>
+                            <li>Established and optimized client onboarding processes onto GoHigh Level by developing standardized templates, which not only reduced onboarding time but also ensured a consistent and positive client experience.</li>
+                            <li>Led the integration of GoHighLevel with various third-party applications (e.g., OpenAI) using Make and Zapier, automating critical client workflows and saving clients an average of 20 hours per week on manual tasks.</li>
+                            <li>Guided the design and implementation of over 20 custom databases (Airtable, NocoDB), automating data entry and significantly improving data management capabilities for clients.</li>
+                            <li>Acted as the primary liaison for more than 10 custom application/extension projects, effectively managing client requirements, facilitating seamless communication between stakeholders and software development teams, and ensuring projects were delivered on time and within budget.</li>
+                            <li>Implemented rigorous functional testing protocols for client software features and web extensions prior to launch, ensuring high-quality deliverables and minimizing post-launch issues.</li>
+                            <li>Championed the training of newly onboarded employees on GoHighLevel usage, lead generation processes, and internal Standard Operating Procedures (SOPs), fostering a knowledgeable and efficient team.</li>
+                            <li>Managed and directed personal technical projects, including providing NAS setup and configuration assistance to over 15 clients, demonstrating technical expertise and problem-solving skills.</li>
+                            <li>Made key decisions regarding business development, resource allocation, and overall company growth, consistently seeking opportunities for expansion and improvement.</li>
+                            <li>Monitored the financial performance of the organization, implementing strategies that ensured sustainability and profitability, achieving a year-over-year revenue growth of 25%.</li>
+                            <li>Explored and pursued new business opportunities to expand the company's reach and service offerings, including identifying and securing partnerships with key industry players.</li>
+                            <li>Fostered a culture of innovation and continuous improvement within the organization, encouraging team members to explore new technologies and methodologies.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Remote Operations Specialist / OBM | WishUp</button>
+                    <div class="accordion-content">
+                        <p><strong>Remote | December 2021 - September 2022 (9 months)</strong></p>
+                         <ul>
+                            <li>Provided comprehensive remote operational, OBM, and Virtual Assistant support to global clients across various sectors.</li>
+                            <li>Provided copywriting services, including writing SEO-informed articles and adapting content for websites.</li>
+                            <li>Managed client website updates on Duda and Wix platforms, including updating product/service inventories and publishing blog posts.</li>
+                            <li>Managed social media tasks for client accounts, including content scheduling and basic analysis (SMM).</li>
+                            <li>Managed executive calendars, scheduling meetings and coordinating travel arrangements.</li>
+                            <li>Organized and prioritized client email inboxes and drafted correspondence.</li>
+                            <li>Conducted market and competitor research to gather intelligence supporting client strategies.</li>
+                            <li>Managed lead generation campaigns using LinkedIn Sales Navigator and various prospecting techniques.</li>
+                            <li>Assisted clients with email marketing campaigns using tools like Instantly and Mailchimp.</li>
+                            <li>Leveraged automation tools (Zapier, Make) and data platforms (Airtable) extensively.</li>
+                            <li>Completed diverse training modules via Wishup, gaining expertise in admin support, marketing, SMM, HR support, project management, and technical skills.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header">Multiple Roles | Void Solutions</button>
+                    <div class="accordion-content">
+                        <p><strong>Pune, Maharashtra, India | May 2020 - Dec 2021</strong></p>
+                        <h4>Senior Process Associate | Project Management Office (PMO) | (Jul 2021 - Dec 2021)</h4>
+                        <ul>
+                            <li>Managed key company projects, including G Suite for Education deployments and internal application rollouts to schools/NGOs.</li>
+                            <li>Coordinated team members across projects with budgets up to 5 lakh INR per client.</li>
+                            <li>Owned, developed, and maintained Standard Operating Procedures (SOPs) across operational, sales, and client-facing processes.</li>
+                            <li>Oversaw quality assurance processes, ensuring product/service delivery consistently met client requirements.</li>
+                            <li>Delivered complex technical demos daily and provided advanced training sessions to key clients and internal teams (50+ participants).</li>
+                            <li>Managed initialization through final development and deployment stages of digitized assessment tools and video training materials, used by 50k+ users.</li>
+                            <li>Handled senior-level client escalations and supported strategic client relationship management.</li>
+                        </ul>
+                        <h4>Operations Team Lead | (Jan 2021 - Jun 2021)</h4>
+                        <ul>
+                            <li>Led daily operations team activities, providing oversight and guidance to ensure timely task completion and adherence to established processes.</li>
+                            <li>Drove process optimization initiatives.</li>
+                            <li>Designed and delivered comprehensive onboarding and training programs for new internal hires covering company policies, procedures, and tools.</li>
+                            <li>Managed delivery timelines for operational tasks, client onboarding phases, and internal projects.</li>
+                            <li>Participated actively in strategic meetings with CEO and Directors, presenting operational updates and contributing to resource planning/allocation.</li>
+                            <li>Managed the bug reporting and resolution cycle for the internal company application.</li>
+                        </ul>
+                        <h4>Sales Interns Team Lead | (Jan 2021 - May 2021) (Held concurrently with Operations Team Lead)</h4>
+                        <ul>
+                            <li>Developed and delivered targeted sales training programs weekly, providing interns with essential sales skills and product knowledge.</li>
+                            <li>Conducted daily coaching sessions, joining intern-led sales calls and demos to provide real-time feedback and support deal closure.</li>
+                            <li>Mentored and guided the sales intern team, achieving a 200% increase in sales revenue/deals closed during the 5-month period.</li>
+                        </ul>
+                        <h4>Operations Team Member | (Sep 2020 - Jan 2021)</h4>
+                        <ul>
+                            <li>Executed G Suite implementation and onboarding processes for enterprise and education clients.</li>
+                            <li>Managed Google Workspace Admin Console for clients, handling user provisioning, group management, permissions, and basic security settings.</li>
+                            <li>Delivered technical training sessions daily to client end-users (teachers, staff) on utilizing G Suite applications effectively.</li>
+                            <li>Managed day-to-day communications, resolved queries, and handled initial escalations for an assigned portfolio of clients.</li>
+                            <li>Facilitated inter-team communication to troubleshoot and resolve operational roadblocks.</li>
+                        </ul>
+                        <h4>Business Development Executive | (May 2020 - Sep 2020)</h4>
+                        <ul>
+                            <li>Developed and implemented lead generation strategies and campaigns.</li>
+                            <li>Conducted cold outreach to prospects (schools, colleges, companies), building relationships and qualifying sales opportunities.</li>
+                            <li>Presented product/service proposals, negotiated terms, and consistently exceeded quarterly sales targets.</li>
+                            <li>Provided initial post-sales customer service and relationship management to ensure a smooth transition to operations.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Psychology Intern</button>
+                    <div class="accordion-content">
+                        <p><strong>Feb 2020 - May 2020 (4 mos)</strong></p>
+                        <ul>
+                            <li>Administered, scored, and interpreted psychological assessments for students (Grades 4-12).</li>
+                            <li>Conducted individual and group counseling sessions monthly at designated schools.</li>
+                            <li>Authored detailed assessment reports monthly, documenting findings and recommendations.</li>
+                            <li>Initiated a transition into B2B outreach, leveraging educational network connections pre-COVID lockdown.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Customer Service & Sales | Crossword Book Stores</button>
+                    <div class="accordion-content">
+                        <p><strong>Pune | January 2019 - January 2020 (1 year)</strong></p>
+                        <ul>
+                            <li>Provided customer assistance, offered book recommendations, and handled special orders.</li>
+                            <li>Trained on and handled billing, packaging, customer returns, and inventory tracking support.</li>
+                            <li>Resolved customer issues and managed floor sales.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">Volunteer Experience & Mentorship</button>
+                    <div class="accordion-content">
+                        <p><strong>Mentor | FIRST Tech Challenge (FTC) & FIRST LEGO League (FLL) | Pune | 2014-2020 (Approx. 6 years)</strong></p>
+                        <ul>
+                            <li>Volunteered as a certified mentor for international robotics competitions (FTC: Grades 8-10; FLL: Grades 3-5).</li>
+                            <li>Collaborated with mentors from John Deere to train student teams at local schools.</li>
+                            <li>Mentored students on programming fundamentals, mechanical design, physics concepts, critical thinking, teamwork, and presentation skills.</li>
+                            <li>Coached multiple teams to success; mentored the 2014 Inspire Award-winning team advancing to the World Championship (St. Louis), and supported another team reaching the World Championship in 2017.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header">Digital Content Creation & Community Management</button>
+                    <div class="accordion-content">
+                        <p><strong>Independent Streamer & Content Creator | Twitch / YouTube | 2017- Present</strong></p>
+                        <ul>
+                            <li>Managed and developed content for a YouTube channel (Since 2017), including video editing and optimization.</li>
+                            <li>Developed and hosted live content on Twitch (2022-Present) (chatting, singing, gaming, IRL streams), implementing audience engagement and retention strategies.</li>
+                            <li>Built and managed an online community across platforms, fostering a welcoming environment, moderating interactions, and developing community guidelines.</li>
+                            <li>Gained technical proficiency in streaming software (OBS), video editing software, production techniques, remote management tools, virtual networking (SRT/SLRTA basics), and multi-platform content distribution (YouTube, Instagram).</li>
+                            <li>Collaborated with other creators and networked with industry professionals (e.g., streaming tech CEOs), enhancing communication and networking abilities.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="certs" id="certifications" data-scroll-section>
+             <div class="section-title" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">
+                <h2>Certifications</h2>
+            </div>
+            <div class="certs-grid" data-scroll data-scroll-speed="1">
+                <div class="cert-item">Google Workspace for Education: Sales Credential</div>
+                <div class="cert-item">Google Workspace for Education: Deployment Credential</div>
+                <div class="cert-item">Google Chrome Enterprise: Deployment Credential</div>
+            </div>
+        </section>
+
+        <footer class="contact" id="contact" data-scroll-section>
+            <div class="contact-content">
+                <h2 data-scroll data-scroll-speed="1">Let's Connect</h2>
+                <p data-scroll data-scroll-speed="1.2">I am eager to apply my diverse skill set to drive innovation and contribute to a better learning experience. Reach out to discuss how we can collaborate.</p>
+                <a href="mailto:director@ascanius.in" class="email-link" data-scroll data-scroll-speed="1.3">director@ascanius.in</a>
+                <div class="footer-note">© 2025 Zishan.</div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
